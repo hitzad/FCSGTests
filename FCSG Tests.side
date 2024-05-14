@@ -1,0 +1,218 @@
+{
+  "id": "e520f30a-c8f2-490c-953f-af8d2d0718a0",
+  "version": "2.0",
+  "name": "FCSG Tests",
+  "url": "https://www.fcsg.ch/",
+  "tests": [{
+    "id": "0af7a194-9849-4a7e-96c9-d61bbf05fd1a",
+    "name": "Spieltag",
+    "commands": [{
+      "id": "ffeb9432-c5ed-43eb-9c9a-2b209cef454e",
+      "comment": "",
+      "command": "open",
+      "target": "/home/daten/spiele/saison-2023-2024/credit-suisse-super-league/35-fcsg-sfc/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e7f29ae7-17cc-4c74-8b53-b653c2db5aff",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "784x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3b123b0f-88d7-4d57-8e7f-3cd097cdfe62",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-tabelle",
+      "targets": [
+        ["css=.icon-tabelle", "css:finder"],
+        ["xpath=//match-center[@id='match-center']/div/section/nav/ul/li[2]/a/i", "xpath:idRelative"],
+        ["xpath=//nav/ul/li[2]/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9bfcc9dc-6fd1-407b-be8e-1c7c3b67a310",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.icon-tabelle",
+      "targets": [
+        ["css=.icon-tabelle", "css:finder"],
+        ["xpath=//match-center[@id='match-center']/div/section/nav/ul/li[2]/a/i", "xpath:idRelative"],
+        ["xpath=//nav/ul/li[2]/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a7d151f-e8e4-4bd1-9785-0400703e47c4",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.icon-tabelle",
+      "targets": [
+        ["css=.icon-tabelle", "css:finder"],
+        ["xpath=//match-center[@id='match-center']/div/section/nav/ul/li[2]/a/i", "xpath:idRelative"],
+        ["xpath=//nav/ul/li[2]/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "26280375-f8fc-4215-9c7b-8f39c92369e1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.matchcenter-nav li:nth-child(1) > a",
+      "targets": [
+        ["css=.matchcenter-nav li:nth-child(1) > a", "css:finder"],
+        ["xpath=//match-center[@id='match-center']/div/section/nav/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:')])[12]", "xpath:href"],
+        ["xpath=//nav/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2e296e8-864b-4594-9e03-6a2d89e9a818",
+      "comment": "",
+      "command": "click",
+      "target": "css=.section-subtitle",
+      "targets": [
+        ["css=.section-subtitle", "css:finder"],
+        ["xpath=//match-center[@id='match-center']/div/div/div/h3", "xpath:idRelative"],
+        ["xpath=//match-center/div/div/div/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'FC St.Gallen 1879 - Servette FC')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "738c09a5-2737-4e18-80ea-24fddbde18e6",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.section-subtitle",
+      "targets": [
+        ["css=.section-subtitle", "css:finder"],
+        ["xpath=//match-center[@id='match-center']/div/div/div/h3", "xpath:idRelative"],
+        ["xpath=//match-center/div/div/div/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'FC St.Gallen 1879 - Servette FC')]", "xpath:innerText"]
+      ],
+      "value": "FC St.Gallen 1879 - Servette FC"
+    }]
+  }, {
+    "id": "e9bfb3bf-c01c-4d48-9111-44da4c6c3f9c",
+    "name": "TEST2",
+    "commands": [{
+      "id": "96e2932e-c64d-47fa-8aa1-773280e8b398",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.fcsg.ch/home/espen-inside/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a482486e-6057-4f27-a223-54872082b965",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "788x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "221fd69e-c88f-4932-b520-e1e51f1de50e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-tickets",
+      "targets": [
+        ["css=.icon-tickets", "css:finder"],
+        ["xpath=//li[4]/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6aeb361b-801f-45be-903c-6df9bb369f63",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.section-subtitle",
+      "targets": [
+        ["css=.section-subtitle", "css:finder"],
+        ["xpath=//section[2]/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Mai 2024')]", "xpath:innerText"]
+      ],
+      "value": "Mai 2024"
+    }]
+  }, {
+    "id": "351daa1d-c7e7-40dd-adb9-fbb1cd7f93fe",
+    "name": "TEST 3",
+    "commands": [{
+      "id": "509cddf4-2cc0-4148-827d-577e5668d9c2",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.fcsg.ch/home/teams/1-mannschaft/torwart/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2bacecd7-d36c-4dfa-ac25-50c6d6038706",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "792x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "64bfe69a-1eb9-496d-bf36-ae9208d99c2e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sidenav-mainnav img",
+      "targets": [
+        ["css=.sidenav-mainnav img", "css:finder"],
+        ["xpath=(//img[@alt='FCSG.ch'])[2]", "xpath:img"],
+        ["xpath=//div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c347679f-0f8c-4d12-a714-2f26c042de04",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-menu",
+      "targets": [
+        ["css=.icon-menu", "css:finder"],
+        ["xpath=//a[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7eb7303-de95-4e2d-bee8-ddc8ab0bbe90",
+      "comment": "",
+      "command": "click",
+      "target": "css=.first-level > li:nth-child(3) > a",
+      "targets": [
+        ["css=.first-level > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Teams')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/home/teams/1-mannschaft/alle/')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d81b083-fe36-4062-8be1-f5afb9786b38",
+      "comment": "",
+      "command": "click",
+      "target": "css=.squad-portrait:nth-child(1) .portrait",
+      "targets": [
+        ["css=.squad-portrait:nth-child(1) .portrait", "css:finder"],
+        ["xpath=//div[2]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "61f13cf3-32a3-465a-b22a-d11d44257346",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=Lawrence Ati bei den Espen",
+      "targets": [
+        ["linkText=Lawrence Ati bei den Espen", "linkText"],
+        ["css=.page-data:nth-child(6) .toggle-dropdown", "css:finder"],
+        ["xpath=//a[contains(text(),'Lawrence Ati bei den Espen')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[8]", "xpath:href"],
+        ["xpath=//section[3]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Lawrence Ati bei den Espen')]", "xpath:innerText"]
+      ],
+      "value": "Lawrence Ati bei den Espen"
+    }]
+  }],
+  "suites": [{
+    "id": "bdf909a8-cbd3-4305-84be-34a0ea30c0fb",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0af7a194-9849-4a7e-96c9-d61bbf05fd1a"]
+  }],
+  "urls": ["https://www.fcsg.ch/"],
+  "plugins": []
+}
